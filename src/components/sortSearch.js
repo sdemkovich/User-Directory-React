@@ -10,8 +10,8 @@ function sortSearch(props) {
 
     return (
         <div className={classes.heroButtons}>
-                <Grid container spacing={2} justify="center">
-                  <Grid item xs={12} sm={6}>
+                <Grid container  justify="flex-start">
+                  <Grid item xs={12} sm={6} justify="flex-start" >
                     <Button fullWidth variant="outlined" placeholder="Sort By..."
                     onClick={props.sortingHat}>Sort by Name
                     </Button>
@@ -20,7 +20,7 @@ function sortSearch(props) {
                     <div className={classes.search}>
                         <Button>
                       <TextField fullWidth variant="outlined"
-                        placeholder="Search by Employee Name"
+                        placeholder="Search Name"
                         onChange={props.handleChange}
                         value={props.value}
                         inputProps={{ 'aria-label': 'search' }}

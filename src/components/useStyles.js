@@ -1,15 +1,13 @@
 import { fade, makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
-    icon: {
-      marginRight: theme.spacing(2),
-    },
     heroContent: {
       backgroundColor: theme.palette.background.paper,
       padding: theme.spacing(8, 0, 6),
     },
     heroButtons: {
       marginTop: theme.spacing(4),
+      marginLeft: theme.spacing(4)
     },
     cardGrid: {
       paddingTop: theme.spacing(8),
@@ -44,15 +42,6 @@ const useStyles = makeStyles((theme) => ({
         marginLeft: theme.spacing(3),
         width: 'auto',
       },
-    },
-    searchIcon: {
-      padding: theme.spacing(0, 2),
-      height: '100%',
-      position: 'absolute',
-      pointerEvents: 'none',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
     },
     inputRoot: {
       color: 'inherit',

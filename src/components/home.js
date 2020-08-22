@@ -60,15 +60,10 @@ class EmpDir extends Component {
           <div className={classes.heroContent}>
               <Header />
             <Container maxWidth="sm">
-              {/* <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-                User Directory
-              </Typography>
-              <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                A simple React.JS application using Material-UI that shows a randomly generated directory of employees.
-              </Typography> */}
               <SortSearch sortingHat={this.sortingHat} handleChange={this.handleChange} />
             </Container>
           </div>
+
           <GridCards results={this.state.filtered}/>
         </main>
       </React.Fragment>

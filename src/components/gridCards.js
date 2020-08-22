@@ -9,7 +9,6 @@ import Container from "@material-ui/core/Container";
 import useStyles from "./useStyles"
 import Avatar from "@material-ui/core/Avatar";
 
-
 const classes = useStyles;
 
 function gridCards(props) {
@@ -20,7 +19,6 @@ function gridCards(props) {
           <Grid container spacing={4}>
             {props && props.results && props.results.map((card, i) => (
               <Grid item key={i} xs={12} sm={6} md={4}>
-                 
                 <Card className={classes.card}>
                   <CardContent className={classes.cardContent}>
                   <Avatar alt="Profile image" src={card.picture.large} />
