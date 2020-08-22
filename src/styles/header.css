@@ -1,0 +1,14 @@
+  
+.header-box {
+    background-color: #111d42;
+    border-bottom: red 3px solid;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  
+  h1, h3 {
+    color: white;
+    margin: 1rem;
+  }

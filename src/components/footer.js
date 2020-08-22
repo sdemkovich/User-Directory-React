@@ -9,7 +9,7 @@ function Copyright() {
     return (
       <Typography variant="body2" color="textSecondary" align="center">
         {'Copyright © '}
-        <Link color="inherit" href="https://c1dechand.github.io/Personal_Portfolio/">
+        <Link color="inherit" href="">
           Personal Portfolio
         </Link>{' '}
         {new Date().getFullYear()}
@@ -23,11 +23,8 @@ function Footer() {
     return (
 
     <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          User Directory
-        </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          UW Coding Bootcamp SDemkovich
+          UW Coding Bootcamp, SDemkovich
         </Typography>
         <Copyright />
       </footer>

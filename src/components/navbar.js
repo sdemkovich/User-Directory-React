@@ -15,7 +15,7 @@ function Navbar() {
         <Toolbar>
           <CameraIcon className={classes.icon} />
           <Typography variant="h6" color="inherit" noWrap>
-            Employee Directory
+            User Directory
           </Typography>
         </Toolbar>
       </AppBar>
