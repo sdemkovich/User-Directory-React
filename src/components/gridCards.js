@@ -36,12 +36,6 @@ function gridCards(props) {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="primary">
-
-                    </Button>
-                    <Button size="small" color="primary">
-
-                    </Button>
                   </CardActions>
                 </Card>
               </Grid>

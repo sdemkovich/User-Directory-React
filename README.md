@@ -1,14 +1,33 @@
-# User-Directory-React
+# [User-Directory-React](https://sdemkovich.github.io/User-Directory-React/)
 
 ## Description 
-A ReactJS demo for an employee directory. The directory makes an Axios call to an API for a random 200 profiles and are displayed through react components and dynamically updated. It also demonstrates a search and sort functionality that allows the user to look for someone specifically.
 
-To use the application, simply visit the deployed application. It's functionality is limited to the search and sort features and they are fairly self explanatory.
+As a user, I want to be able to view my entire user/employee directory at once so that I have quick access to their information. View, sort, and filter an API/Axios-generated employee list built using React components, state management, and user event handling.
 
-
-View, sort, and filter an API/Axios-generated employee list built using React components, state management, and user event handling.
+![User-directory-react](https://user-images.githubusercontent.com/61451081/90950471-94773b00-e406-11ea-80f9-0c0778cf8404.gif)
 
 
-## User Story
+## Table of Contents
+* [Usage](#usage)
+* [Technologies](#technologies)
+* [Questions](#questions)
 
-- As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+## Usage
+* Navigate to the page
+* View entire user/employee directory cards with their personal info
+* Click to "Sort Name" to be able to sort employees by Name
+* Type employees name in "Search field" to be able to filter employee by name 
+
+## Technologies
+* ReactJS
+* Material-ui
+* Node.js
+* npm
+
+
+## Questions
+​
+If you have any questions about the repo, please contact me:
+
+On GitHub: [sdemkovich](https://github.com/sdemkovich) 
+

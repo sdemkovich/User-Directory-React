@@ -11,7 +11,7 @@ function sortSearch(props) {
     return (
         <div className={classes.heroButtons}>
                 <Grid container  justify="flex-start">
-                  <Grid item xs={12} sm={6} justify="flex-start" >
+                  <Grid item xs={12} sm={6} >
                     <Button fullWidth variant="outlined" placeholder="Sort By..."
                     onClick={props.sortingHat}>Sort by Name
                     </Button>
